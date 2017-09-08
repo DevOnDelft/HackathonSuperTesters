@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAgileCockpit", "TestAgi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationAgileCockpit", "WebApplicationAgileCockpit\WebApplicationAgileCockpit.csproj", "{1A87C541-927E-43E3-B686-4EB3C17C8129}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileCockPit.WhiteTest", "AgileCockPit.WhiteTest\AgileCockPit.WhiteTest.csproj", "{87C83FFD-705E-4BE0-B8B4-62C2A9C6EE05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A87C541-927E-43E3-B686-4EB3C17C8129}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A87C541-927E-43E3-B686-4EB3C17C8129}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A87C541-927E-43E3-B686-4EB3C17C8129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C83FFD-705E-4BE0-B8B4-62C2A9C6EE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C83FFD-705E-4BE0-B8B4-62C2A9C6EE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C83FFD-705E-4BE0-B8B4-62C2A9C6EE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C83FFD-705E-4BE0-B8B4-62C2A9C6EE05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
