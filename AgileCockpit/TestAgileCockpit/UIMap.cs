@@ -22,7 +22,7 @@
         public void navigateAndSelectTeam()
         {
             #region Variable Declarations
-            WinWindow uIAgileCockpitAppListGWindow1 = this.UIAgileCockpitAppListGWindow.UIAgileCockpitAppListGWindow1;
+            Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinWindow uIAgileCockpitAppListGWindow1 = this.UIAgileCockpitAppListGWindow.UIAgileCockpitAppListGWindow1;
             #endregion
 
             // Click 'Agile Cockpit - App List - Google Chrome' window
@@ -38,7 +38,7 @@
         public void selectTaskBoard()
         {
             #region Variable Declarations
-            WinWindow uIAgileCockpitAppListGWindow1 = this.UIAgileCockpitAppListGWindow.UIAgileCockpitAppListGWindow1;
+            Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinWindow uIAgileCockpitAppListGWindow1 = this.UIAgileCockpitAppListGWindow.UIAgileCockpitAppListGWindow1;
             #endregion
 
             // Click 'Agile Cockpit - App List - Google Chrome' window
@@ -65,28 +65,28 @@
     }
 
     [GeneratedCode("Coded UITest Builder", "14.0.23107.0")]
-    public class UIAgileCockpitAppListGWindow : WinWindow
+    public class UIAgileCockpitAppListGWindow : Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinWindow
     {
 
         public UIAgileCockpitAppListGWindow()
         {
             #region Search Criteria
-            this.SearchProperties[WinWindow.PropertyNames.Name] = "Agile Cockpit - App List - Google Chrome";
-            this.SearchProperties[WinWindow.PropertyNames.ClassName] = "Chrome_WidgetWin_1";
+            this.SearchProperties[Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinWindow.PropertyNames.Name] = "Agile Cockpit - App List - Google Chrome";
+            this.SearchProperties[Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinWindow.PropertyNames.ClassName] = "Chrome_WidgetWin_1";
             this.WindowTitles.Add("Agile Cockpit - App List - Google Chrome");
             #endregion
         }
 
         #region Properties
-        public WinWindow UIAgileCockpitAppListGWindow1
+        public Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinWindow UIAgileCockpitAppListGWindow1
         {
             get
             {
                 if ((this.mUIAgileCockpitAppListGWindow1 == null))
                 {
-                    this.mUIAgileCockpitAppListGWindow1 = new WinWindow(this);
+                    this.mUIAgileCockpitAppListGWindow1 = new Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinWindow(this);
                     #region Search Criteria
-                    this.mUIAgileCockpitAppListGWindow1.SearchProperties[WinWindow.PropertyNames.Name] = "Agile Cockpit - App List";
+                    this.mUIAgileCockpitAppListGWindow1.SearchProperties[Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinWindow.PropertyNames.Name] = "Agile Cockpit - App List";
                     this.mUIAgileCockpitAppListGWindow1.WindowTitles.Add("Agile Cockpit - App List - Google Chrome");
                     #endregion
                 }
@@ -96,7 +96,7 @@
         #endregion
 
         #region Fields
-        private WinWindow mUIAgileCockpitAppListGWindow1;
+        private Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinWindow mUIAgileCockpitAppListGWindow1;
         #endregion
     }
 }
