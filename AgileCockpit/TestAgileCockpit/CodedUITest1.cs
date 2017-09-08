@@ -25,6 +25,9 @@ namespace TestAgileCockpit
         [TestMethod]
         public void CodedUITestMethod1()
         {
+
+            this.UIMap.navigateAndSelectTeam();
+            this.UIMap.selectTaskBoard();
             // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
         }
 
@@ -64,5 +67,20 @@ namespace TestAgileCockpit
             }
         }
         private TestContext testContextInstance;
+
+        public UIMap UIMap
+        {
+            get
+            {
+                if ((this.map == null))
+                {
+                    this.map = new UIMap();
+                }
+
+                return this.map;
+            }
+        }
+
+        private UIMap map;
     }
 }
